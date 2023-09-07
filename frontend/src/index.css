@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  /* backdrop-filter: blur(52px); */
+  /* background: linear-gradient(179.98deg, rgba(8, 11, 22, 0.6) 0.63%, rgba(8, 11, 22, 0) 32.92%), linear-gradient(180deg, rgba(8, 11, 22, 0) 0%, rgba(8, 11, 22, 0.5) 100%), rgba(8, 11, 22, 0.5); */
+  overscroll-behavior-y: contain;
+  overscroll-behavior: contain;
+
+  @apply min-h-screen bg-black
+}
+

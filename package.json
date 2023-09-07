@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev":"nodemon --exec go run main.go --signal SIGTERM --watch src --watch main.go -e go,js,css,html"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
